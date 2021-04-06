@@ -1,0 +1,116 @@
+.flex-container {
+  border: 7px solid black;
+  width: 600px;
+  height: 400px;
+  margin: 0 auto;
+}
+.div {
+  padding: 6px 6px;
+}
+.div-1 {
+  background-color: cadetblue;
+  flex-grow: 1;
+}
+.div-2 {
+  background-color: chocolate;
+  flex-grow: 2;
+  order: -1;
+}
+.div-3 {
+  background-color: coral;
+}
+.div-4 {
+  background-color: cornflowerblue;
+}
+.div-5 {
+  background-color: blueviolet;
+}
+.div-6 {
+  background-color: brown;
+}
+.div-7 {
+  background-color: darkgray;
+}
+.div-8 {
+  background-color: darkkhaki;
+}
+.div-9 {
+  background-color: brown;
+}
+.div-10 {
+  background-color: chartreuse;
+}
+.div-11 {
+  background-color: cyan;
+}
+.div-12 {
+  background-color: darkblue;
+}
+.div-13 {
+  background-color: darkgoldenrod;
+}
+.div-14 {
+  background-color: darkmagenta;
+}
+.div-15 {
+  background-color: darkslategray;
+}
+/* basic */
+
+/* flex derection */
+
+/* .flex-container {
+  display: flex;
+  flex-direction: column-reverse;
+} */
+/* .flex-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+} */
+
+/* flexd  direction end */
+
+/* Justify content start */
+/* .flex-container {
+  display: flex;
+  justify-content: space-around;
+} */
+/* Justify content end */
+
+/* align-items start */
+/* .flex-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+} */
+/* align-items end */
+/* align-content start */
+/* .flex-container {
+  display: flex;
+} */
+
+/* flex wrap */
+/* .flex-container {
+  display: flex;
+} */
+/* flex wrap end */
+
+/* flex order */
+/* flex-grow */
+/* margin auto with flex */
+
+/*
+parent
+1) display: flex
+2) flex derection
+3) flex-wrap: wrap;
+4) Justify content
+5) align-items (vertical justify content)
+6) align-content
+child
+8) flex-grow (to individual item)
+9) flex order (to individual item)
+10) margin auto
+11) align self
+*/
